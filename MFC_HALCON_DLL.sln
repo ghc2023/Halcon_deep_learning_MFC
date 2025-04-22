@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC_HALCON_DLL", "MFC_HALCON_DLL\MFC_HALCON_DLL.vcxproj", "{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F} = {7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dl_dll", "..\dl_dll\dl_dll\dl_dll.vcxproj", "{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}.Debug|Win32.Build.0 = Debug|Win32
+		{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}.Debug|x64.ActiveCfg = Debug|x64
+		{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}.Debug|x64.Build.0 = Debug|x64
+		{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}.Release|Win32.ActiveCfg = Release|Win32
+		{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}.Release|Win32.Build.0 = Release|Win32
+		{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}.Release|x64.ActiveCfg = Release|x64
+		{151707D4-2B4B-4698-866D-1F2E3BF6DCE0}.Release|x64.Build.0 = Release|x64
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}.Debug|Win32.Build.0 = Debug|Win32
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}.Debug|x64.ActiveCfg = Debug|x64
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}.Debug|x64.Build.0 = Debug|x64
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}.Release|Win32.ActiveCfg = Release|Win32
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}.Release|Win32.Build.0 = Release|Win32
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}.Release|x64.ActiveCfg = Release|x64
+		{7633EF0F-5158-4DA1-A7EE-C111A2CE5B9F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
